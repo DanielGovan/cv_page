@@ -1,20 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
-    />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Dan Govan's CV</title>
-    <meta
-      name="description"
-      content="Front end developer with a passion for UX &amp; 15 years experience building websites for global &amp; local brands."
-    />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-  </head>
+import React from "react";
+// import { Link } from "gatsby";
 
-  <body>
+import Layout from "../components/layout";
+// import Image from "../components/image"
+import SEO from "../components/seo";
+import "../styles.css";
+
+const IndexPage = () => (
+  <Layout>
+    <SEO title="CV" />
     <header class="intro">
       <div class="lhs">
         <h1>Dan Govan</h1>
@@ -32,7 +26,9 @@
       <h2>Front End Contractor since 2014</h2>
       <ul>
         <li>
-          <h3><span class="dateText">From Sept 2020:</span> Jollywise</h3>
+          <h3>
+            <span class="dateText">From Sept 2020:</span> Jollywise
+          </h3>
           <p>
             Converting a React / Redux site to a new design, updating redux
             according to a new api &amp; adding new components and
@@ -42,12 +38,14 @@
           </p>
         </li>
         <li>
-          <h3><span class="dateText">Feb - Mar 2020:</span> EDD London</h3>
+          <h3>
+            <span class="dateText">Feb - Mar 2020:</span> EDD London
+          </h3>
           <p>
             Working again with some of the VooDooBytes team I came on to build
-            out the front end of an e-commerce site in React, first implementing
-            new components, then leading on upgrading from a rigid desktop site
-            to being responsive and device agnostic.
+            out the UI for an e-commerce site in React, first implementing new
+            components, then leading on upgrading from a rigid desktop site to
+            being responsive and device agnostic.
           </p>
         </li>
         <li>
@@ -62,7 +60,9 @@
           </p>
         </li>
         <li>
-          <h3><span class="dateText">May-Aug 2019:</span> YunoJuno</h3>
+          <h3>
+            <span class="dateText">May-Aug 2019:</span> YunoJuno
+          </h3>
           <p>
             Using React, modular scss &amp; Storybook to implement a new
             registration &amp; onboarding system.
@@ -79,7 +79,9 @@
           </p>
         </li>
         <li>
-          <h3><span class="dateText">May to Sept 2018:</span> KoffeeCup</h3>
+          <h3>
+            <span class="dateText">May to Sept 2018:</span> KoffeeCup
+          </h3>
           <p>
             Tackled a legacy Angular / Cordova app for onsite tablet and kiosk;
             reworking content, assets &amp; structure for an annual refresh with
@@ -89,9 +91,10 @@
         </li>
         <li>
           <h3>
-            <span class="dateText"
-              >Jul 2015 to Dec 2017: Front end Contractor</span
-            >YunoJuno
+            <span class="dateText">
+              Jul 2015 to Dec 2017: Front end Contractor
+            </span>
+            YunoJuno
           </h3>
           <p>
             Rapid prototyping &amp; building of a constantly evolving UX &amp;
@@ -103,26 +106,23 @@
         </li>
         <li>
           <h3>
-            <span class="dateText"
-              >Jul 2014 to Jun 2015: Creative Technologist (part time)</span
-            >
+            <span class="dateText">
+              Jul 2014 to Jun 2015: Creative Technologist (part time)
+            </span>
             MetaBroadcast
           </h3>
           <p>
             Joining a software engineering team this was my first
             JavaScript-centric role, prototyping UIs for metadata API tools for
-            the BBC. I also contributed to the
-            <a target="_blank" href="http://metabroadcast.com/author/dan+govan"
-              >company blog</a
-            >
-            &amp; spoke at monthly meetups.
+            the BBC. I also contributed to the company blog &amp; spoke at
+            monthly meetups.
           </p>
         </li>
         <li>
           <h3>
-            <span class="dateText"
-              >Feb 2014 to Jun 2015: Front end Contractor</span
-            >
+            <span class="dateText">
+              Feb 2014 to Jun 2015: Front end Contractor
+            </span>
             VooDooBytes
           </h3>
           <p>
@@ -133,7 +133,9 @@
           </p>
         </li>
         <li>
-          <h3><span class="dateText">Feb to Apr 2014</span> Maynard Malone</h3>
+          <h3>
+            <span class="dateText">Feb to Apr 2014</span> Maynard Malone
+          </h3>
           <p>
             Quickly picking up Drupal, I used PHP, CSS &amp; jQ to implement new
             sections of the Organix site.
@@ -147,9 +149,9 @@
       <ul>
         <li>
           <h3>
-            <span class="dateText"
-              >2012-2014: Senior Interactive Web Developer</span
-            >
+            <span class="dateText">
+              2012-2014: Senior Interactive Web Developer
+            </span>
             VML London
           </h3>
           <p>
@@ -217,11 +219,6 @@
             Semi-OO approach for modularity, nearer SMACSS-based architecture,
             now js-wrapped modules, styled components etc.
           </li>
-          <!--<li>
-            <strong>Skinning:</strong> Templating in Django, PHP (Umbraco,
-            Wordpress, Drupal), CQ5/4, Shopify, collaborating to skin Ember,
-            Vignette, Phonegap, dotNet, Ektron, SharePoint etc.
-          </li>-->
           <li>
             <strong>Responsive:</strong> The practical cross-disciplinary
             challenges of performant device-agnostic websites, as well as mobile
@@ -250,33 +247,45 @@
             class="noprint"
             data-print="www.linkedin.com/in/daniel-govan-9227511"
           >
-            <strong
-              ><a
+            <strong>
+              <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://www.linkedin.com/in/%F0%9F%91%8D-daniel-govan-9227511/"
-                >LinkedIn</a
-              ></strong
-            >
+              >
+                LinkedIn
+              </a>
+            </strong>
           </li>
           <li data-print="github.com/danielgovan/">
-            <strong
-              ><a target="_blank" href="https://github.com/danielgovan/"
-                >Github</a
-              ></strong
-            >
+            <strong>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/danielgovan/"
+              >
+                Github
+              </a>
+            </strong>
           </li>
           <li data-print="danielgovan@gmail.com">
-            <strong
-              ><a target="_blank" href="danielgovan@gmail.com">Email</a></strong
-            >
+            <strong>
+              <a target="_blank" rel="noreferrer" href="danielgovan@gmail.com">
+                Email
+              </a>
+            </strong>
           </li>
           <li class="noweb" data-print="07880 704509">
-            <strong
-              ><a target="_blank" href="tel:07880 704509">Phone</a></strong
-            >
+            <strong>
+              <a target="_blank" rel="noreferrer" href="tel:07880 704509">
+                Phone
+              </a>
+            </strong>
           </li>
         </ul>
       </div>
     </section>
-  </body>
-</html>
+  </Layout>
+);
+
+export default IndexPage;
