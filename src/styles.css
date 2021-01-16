@@ -42,13 +42,6 @@ video {
 }
 
 body {
-  font-size: 18px;
-  font-family: lora, serif;
-  margin: 0 auto;
-  line-height: 1.2;
-  color: #333;
-  background: #fff;
-  padding: 1rem;
 }
 
 ::selection {
@@ -135,10 +128,6 @@ li {
   padding-bottom: 0.5rem;
 }
 
-.intro .blurb {
-  font-size: 1.3em;
-}
-
 .lhs,
 .rhs {
   box-sizing: border-box;
@@ -152,10 +141,6 @@ li {
     padding-left: 1rem;
     text-indent: -1rem;
   }
-}
-
-.intro {
-  overflow: hidden;
 }
 
 .lhs {
@@ -249,9 +234,7 @@ li {
   body {
     display: block !important;
   }
-  body .intro {
-    overflow: hidden;
-  }
+
   body .lhs {
     box-sizing: border-box;
     width: 50%;
