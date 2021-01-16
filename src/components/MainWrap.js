@@ -10,6 +10,12 @@ const StyledMainWrap = styled.div`
   color: #333;
   background: #fff;
   padding: 1rem;
+
+  @media print {
+    @page {
+      margin: 0.5cm;
+    }
+  }
 `;
 
 const MainWrap = ({ children }) => {

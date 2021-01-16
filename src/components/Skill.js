@@ -1,19 +1,29 @@
 import React from "react";
 import styled from "styled-components";
 import Para from "./Para";
+import Subheader from "./Subheader";
 
 const StyledSkill = styled.div`
-  h4 {
-    color: #a4000e;
-    font-family: "Ubuntu", sans-serif;
-    margin: 0 0 0.2rem;
+  h3 {
+    margin: 0;
+  }
+  @media print {
+    margin-top: 0.4rem;
+    h3 {
+      margin-right: 0.2rem;
+      display: inline;
+      line-height: 1;
+    }
   }
 `;
 
 const Skill = ({ title, children }) => {
   return (
     <StyledSkill>
-      <h4>{title}</h4> <Para>{children}</Para>
+      <Para>
+        <Subheader>{title}</Subheader>
+        {children}
+      </Para>
     </StyledSkill>
   );
 };

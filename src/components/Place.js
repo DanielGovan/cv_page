@@ -1,33 +1,24 @@
 import React from "react";
 import styled from "styled-components";
 import Para from "./Para";
+import Subheader from "./Subheader";
 
 const StyledPlace = styled.div`
-  margin-top: 1rem;
+  @media screen {
+    margin-bottom: 1rem;
+  }
+  margin-bottom: 0.5rem;
   --webkit-column-break-inside: avoid;
   break-inside: avoid;
-  h3 {
-    font-size: 1.3rem;
-    color: #a4000e;
-    font-family: "Ubuntu", sans-serif;
-    margin: 0 0 0.4rem 0;
-    .dateText {
-      display: block;
-      font-size: 0.78em;
-      opacity: 0.7;
-      color: #111;
-      line-height: 1;
-    }
-  }
 `;
 
 const Place = ({ time, place, children }) => {
   return (
     <StyledPlace>
-      <h3>
+      <Subheader>
         <span class="dateText">{time}</span>
         {place}
-      </h3>
+      </Subheader>
       <Para>{children}</Para>
     </StyledPlace>
   );

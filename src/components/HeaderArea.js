@@ -7,7 +7,7 @@ const StyledHeaderArea = styled.div`
   display: grid;
   color: #a4000e;
   font-family: "Ubuntu", sans-serif;
-  margin: 0 0 1rem;
+  margin: 0;
 
   @media screen and (min-width: 1000px) {
     grid-template-columns: 1fr 1fr;

@@ -3,8 +3,8 @@ import styled from "styled-components";
 
 const StyledLink = styled.div`
   font-family: "Ubuntu", sans-serif;
-  padding: 5px;
-  margin: 0 10px 0 0;
+  padding: 0.5rem;
+  margin: 0 0.5rem 0 0;
   display: inline-block;
   a {
     color: #a4000e;
@@ -17,21 +17,35 @@ const StyledLink = styled.div`
 
   svg {
     position: relative;
-    bottom: -2px;
-    margin-right: 5px;
+    bottom: -0.2rem;
+    margin-right: 0.5rem;
   }
 
   @media print {
-    [data-print]:after {
+    &.noprint {
+      display: none;
+    }
+
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0;
+    content: " ";
+
+    &[data-print]:after {
       content: " " attr(data-print) " ";
       font-family: monospace;
+    }
+
+    a {
+      margin: 0;
+      padding: 0;
     }
   }
 `;
 
-const FooterLink = ({ print, href, children }) => {
+const FooterLink = ({ print, href, children, flag }) => {
   return (
-    <StyledLink data-print={print}>
+    <StyledLink className={flag} data-print={print}>
       <a target="_blank" rel="noreferrer" href={href}>
         {children}
       </a>

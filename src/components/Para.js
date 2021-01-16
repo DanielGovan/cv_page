@@ -8,9 +8,9 @@ const StyledPara = styled.p`
   margin: 0 0 0.5rem 0.5rem;
 
   @media print {
-    font-size: 1rem !important;
+    font-size: 0.9rem !important;
     line-height: 1 !important;
-    margin: 0 0 0.2rem 0.2rem !important;
+    margin: 0 0 0.2rem 0 !important;
   }
 `;
 

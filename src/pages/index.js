@@ -167,6 +167,7 @@ const IndexPage = () => (
         <FooterLink
           print="www.linkedin.com/in/daniel-govan-9227511"
           href="https://www.linkedin.com/in/%F0%9F%91%8D-daniel-govan-9227511/"
+          flag="noprint"
         >
           <FaLinkedin />
           LinkedIn
@@ -186,11 +187,6 @@ const IndexPage = () => (
         >
           <GrMail />
           Email
-        </FooterLink>
-
-        <FooterLink print="07880 704509" href="tel:07880 704509">
-          <FaPhoneAlt />
-          Phone
         </FooterLink>
       </div>
     </ColumnWrap>
