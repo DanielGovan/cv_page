@@ -40,7 +40,7 @@ const StyledIntro = styled.p`
 
   @media print {
     text-shadow: none !important;
-    font-size: 1.2rem !important;
+    font-size: 1.1rem !important;
     line-height: 1 !important;
     padding: 0 !important;
   }

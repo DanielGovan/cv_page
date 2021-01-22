@@ -20,9 +20,7 @@ const IndexPage = () => (
     <MainWrap>
       <HeaderArea
         header="Dan Govan"
-        intro="Front end developer since 2006 with a passion for UI/UX, looking for a
-          hands-on role in the React ecosystem with a collaborative,
-          forward-thinking team."
+        intro="Veteran front end developer &amp; middleweight React engineer with a passion for UI/UX, looking for a JS based role in a collaborative, forward-thinking team."
       />
 
       <ColumnWrap>
@@ -133,8 +131,8 @@ const IndexPage = () => (
           <SectionHeader>Appendix</SectionHeader>
           <Skill title="2020 covid downtime">
             Designed and built a Gatsby (React, GraphQL, Jamstack) photography
-            website. Also took courses in "JavaScript Algorithms &amp; Data
-            Structures", React Native, Redux, Node.js etc.
+            website. Took courses in JavaScript Algorithms, Data Structures,
+            React Native, Redux and Node.js etc.
           </Skill>
           <Skill title="Scripting">
             JavaScript: ES6 and beyond, React.js focus, dabbled in Node.js and
