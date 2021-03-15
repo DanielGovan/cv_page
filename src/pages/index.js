@@ -28,7 +28,7 @@ const IndexPage = () => (
         <Place time="Feb 2021:" place="BDH">
           Networked Interactive Presentation Website, using a React/Redux front
           end and users kept in sync with an express / sockets.io backend, to
-          fix and improve upon a MVP protoype after user testing.
+          fix and improve upon a MVP prototype after user testing.
         </Place>
         <Place time="Sept 2020 to March 2021:" place="Jollywise">
           Converting a React / Redux site to a new design, updating redux
