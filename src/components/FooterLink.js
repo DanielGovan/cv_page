@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const StyledLink = styled.div`
   font-family: "Ubuntu", sans-serif;
-  padding: 0.5rem;
+  padding: 0;
   margin: 0 0.5rem 0 0;
   display: inline-block;
   a {

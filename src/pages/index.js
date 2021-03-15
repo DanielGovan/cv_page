@@ -25,19 +25,22 @@ const IndexPage = () => (
 
       <ColumnWrap>
         <SectionHeader>Front End Contractor since 2014</SectionHeader>
-        <Place time="From Sept 2020:" place="Jollywise">
+        <Place time="Feb 2021:" place="BDH">
+          Networked Interactive Presentation Website, using a React/Redux front
+          end and users kept in sync with an express / sockets.io backend, to
+          fix and improve upon a MVP protoype after user testing.
+        </Place>
+        <Place time="Sept 2020 to March 2021:" place="Jollywise">
           Converting a React / Redux site to a new design, updating redux
-          according to a new api &amp; adding new components and functionality.
-          CI with github &amp; Jenkins. Returned for a quick client christmas
-          card quiz microsite, and again for a React microsite with several
-          simple JS minigames.
+          according to a new api &amp; with new components etc. CI with github
+          &amp; Jenkins. Returned for a quick client christmas card quiz
+          microsite, then again for a React microsite with several JS minigames.
         </Place>
 
         <Place time="Feb - Mar 2020:" place="EDD London">
-          Working again with some of the VooDooBytes team I came on to build out
-          the UI for an e-commerce site in React, first implementing new
-          components, then leading on upgrading from a rigid desktop site to
-          being responsive and device agnostic.
+          Came onboard to build new React UI components for an e-commerce site,
+          also leading on upgrading from a rigid desktop site to being
+          responsive and device agnostic.
         </Place>
         <Place time="Oct 2019 - Feb 2020:" place="Rehab Agency">
           4 months building 6 iterations of an educational microsite, each
@@ -57,8 +60,7 @@ const IndexPage = () => (
         <Place time="May to Sept 2018:" place="KoffeeCup">
           Tackled a legacy Angular / Cordova app for onsite tablet and kiosk;
           reworking content, assets &amp; structure for an annual refresh with
-          tight turnarounds. Returned to lay the groundwork for a Red Bull
-          project that unfortunately never left the ground.
+          tight turnarounds.
         </Place>
         <Place
           time="Jul 2015 to Dec 2017: Front end Contractor"
@@ -74,10 +76,9 @@ const IndexPage = () => (
           time="Jul 2014 to Jun 2015: Creative Technologist (part time)"
           place="MetaBroadcast"
         >
-          Joining a software engineering team this was my first
-          JavaScript-centric role, prototyping UIs for metadata API tools for
-          the BBC. I also contributed to the company blog &amp; spoke at monthly
-          meetups.
+          Joining a software engineering team to prototyping UIs for metadata
+          API tools for the BBC. I also wrote on the company blog &amp; spoke at
+          monthly meetups.
         </Place>
         <Place
           time="Feb 2014 to Jun 2015: Front end Contractor"
@@ -169,7 +170,6 @@ const IndexPage = () => (
 
         <div class="Appendix-links">
           <SectionHeader>Contact</SectionHeader>
-
           <FooterLink
             print="www.linkedin.com/in/daniel-govan-9227511"
             href="https://www.linkedin.com/in/%F0%9F%91%8D-daniel-govan-9227511/"
@@ -186,7 +186,6 @@ const IndexPage = () => (
             <FaGithubAlt />
             Github
           </FooterLink>
-
           <FooterLink
             print="danielgovan@gmail.com"
             href="mailto:danielgovan@gmail.com"
