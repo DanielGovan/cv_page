@@ -25,28 +25,30 @@ const IndexPage = () => (
 
       <ColumnWrap>
         <SectionHeader>Front End Contractor since 2014</SectionHeader>
+        <Place time="Apr-Jun 2021:" place="Festicket">
+          Working in a small team to build out components for a new Portal in a
+          large React / Redux codebase using TypeScript, React Testing Library,
+          React-i18next and Styled System.
+        </Place>
         <Place time="Feb 2021:" place="BDH">
-          Networked Interactive Presentation Website, using a React/Redux front
-          end and users kept in sync with an express / sockets.io backend, to
-          fix and improve upon a MVP prototype after user testing.
+          Networked Interactive Presentation app, with React/Redux front end and
+          an express / sockets.io backend, fixing and improve upon a MVP after
+          user testing.
         </Place>
         <Place time="Sept 2020 to March 2021:" place="Jollywise">
-          Converting a React / Redux site to a new design, updating redux
-          according to a new api &amp; with new components etc. CI with github
-          &amp; Jenkins. Returned for a quick client christmas card quiz
-          microsite, then again for a React microsite with several JS minigames.
+          Converting a React / Redux site to a new design, and new api &amp;
+          with new components. CI with github &amp; Jenkins. Returned to style a
+          christmas quiz, then again to solo dev a React app featuring JS
+          minigames.
         </Place>
-
         <Place time="Feb - Mar 2020:" place="EDD London">
-          Came onboard to build new React UI components for an e-commerce site,
-          also leading on upgrading from a rigid desktop site to being
-          responsive and device agnostic.
+          Built React UI for an e-commerce site, then lead on upgrading from
+          desktop-only to device agnostic.
         </Place>
         <Place time="Oct 2019 - Feb 2020:" place="Rehab Agency">
-          4 months building 6 iterations of an educational microsite, each
-          translated into 8 languages. Used React, JSON, hooks, css modules,
-          SCORM &amp; Sketch. Mentored other devs to bring parallel projects up
-          to speed.
+          Built 8 localisations of 6 iterations of an educational tool. Used
+          React, hooks, CSS modules, JSON, SCORM &amp; Sketch. Advised on
+          bringing parallel projects up to speed.
         </Place>
         <Place time="May-Aug 2019:" place="YunoJuno">
           Using React, modular scss &amp; Storybook to implement a new
@@ -59,26 +61,23 @@ const IndexPage = () => (
         </Place>
         <Place time="May to Sept 2018:" place="KoffeeCup">
           Tackled a legacy Angular / Cordova app for onsite tablet and kiosk;
-          reworking content, assets &amp; structure for an annual refresh with
-          tight turnarounds.
+          reworking content, assets &amp; structure.
         </Place>
         <Place
           time="Jul 2015 to Dec 2017: Front end Contractor"
           place="YunoJuno"
         >
-          Rapid prototyping &amp; building of a constantly evolving UX &amp;
-          Front end, taming sprawling legacy CSS &amp; maintaining an extensive
-          design system using practical BEM, Stylus/SASS, Django templating
-          &amp; later React. A highlight was a complete site redesign using only
-          a CSS retheme.
+          Building an evolving UX &amp; Front End, taming sprawling legacy CSS
+          &amp; maintaining an extensive design system using practical BEM,
+          Stylus/SASS, Django templating &amp; later React. A highlight was a
+          complete site redesign using only a CSS retheme.
         </Place>
         <Place
           time="Jul 2014 to Jun 2015: Creative Technologist (part time)"
           place="MetaBroadcast"
         >
-          Joining a software engineering team to prototyping UIs for metadata
-          API tools for the BBC. I also wrote on the company blog &amp; spoke at
-          monthly meetups.
+          Joined a back end team building UIs for prototype metadata tools for
+          the BBC.
         </Place>
         <Place
           time="Feb 2014 to Jun 2015: Front end Contractor"
@@ -145,9 +144,8 @@ const IndexPage = () => (
             localisation.
           </Skill>
           <Skill title="Styling">
-            CSS3 (Sass, LESS or Stylus), historically Semi-OO approach for
-            modularity, nearer SMACSS-based architecture, now js-wrapped
-            modules, styled components etc.
+            CSS3 (Sass, LESS, Stylus), BEM / SMACSS-based architecture, then
+            js-wrapped modules, styled components etc.
           </Skill>
           <Skill title="Responsive">
             The practical cross-disciplinary challenges of performant
