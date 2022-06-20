@@ -82,9 +82,9 @@ const IndexPage = () => (
           time="Feb 2014 to Jun 2015: Front end Contractor"
           place="VooDooBytes"
         >
-          Initally the front end to agreatplacetobe with Mixture, Liquid, Sass
-          &amp; jQ for integration to Umbraco. Later projects included
-          Cameraworks, Heineken, &amp; Blossom Hill.
+          Worked on agreatplacetobe with Mixture, Liquid, Sass &amp; jQ for
+          integration to Umbraco. Then projects including Cameraworks, Heineken,
+          &amp; Blossom Hill.
         </Place>
         <Place time="Feb to Apr 2014" place="Maynard Malone">
           Quickly picking up Drupal, I used PHP, CSS &amp; jQ to implement new
@@ -99,8 +99,8 @@ const IndexPage = () => (
             Responsive builds from microsites to enterprise-level CQ builds, for
             Colgate, Premier Inn &amp; Premier League including a fluid mobile
             site that got 500k uniques a day &amp; 3mil in revenue a week.
-            <br /> I also organised knowledge-sharing workshops, was on the
-            social media committee, &amp; portraits &amp; events photographer.
+            <br /> I also organised knowledge-sharing workshops, and was in
+            -house portraits &amp; events photographer.
           </Place>
         </NoColWrap>
         <Place time="2011-2012: Interface Developer" place="MRM Meteorite">
