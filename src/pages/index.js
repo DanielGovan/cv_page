@@ -140,17 +140,16 @@ const IndexPage = () => (
           </Skill>
           <Skill title="Markup">
             Semantic HTML with a mind to accessibility, SEO, scalability &amp;
-            localisation.
+            localisation. The practical challenges of performant device-agnostic
+            websites, as well as mobile &amp; tablet-specific solutions.
           </Skill>
           <Skill title="Styling">
             CSS3 (Sass, LESS, Stylus), BEM / SMACSS-based architecture, then
             js-wrapped modules, styled components etc.
           </Skill>
-          <Skill title="Responsive">
-            The practical cross-disciplinary challenges of performant
-            device-agnostic websites, as well as mobile &amp; tablet-specific
-            solutions.
-          </Skill>
+          {/* <Skill title="Responsive">
+           
+          </Skill> */}
           <Skill title="Design">
             Talking to creatives on their own terms, adding interstitial layouts
             &amp; interactions that creative comps don't cover, identifying UX
@@ -158,11 +157,11 @@ const IndexPage = () => (
           </Skill>
           <Skill title="Tooling">
             VS Code, Webpack, Yarn / NPM, Git, github, Jira, Trello, Jenkins,
-            Netlify. Agile &amp; Waterfall but mostly a mix.
+            Netlify etc
           </Skill>
-          <Skill title="Education">
+          {/* <Skill title="Education">
             BEng (Mechanical) at Warwick University
-          </Skill>
+          </Skill> */}
         </div>
 
         <div class="Appendix-links">
