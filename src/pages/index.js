@@ -38,9 +38,8 @@ const IndexPage = () => (
         </Place>
         <Place time="Sept 2020 to Mar 2021:" place="Jollywise">
           Converting a React / Redux site to a new design, &amp; new api &amp;
-          with new components. CI with github &amp; Jenkins. Returned to style a
-          christmas quiz, then again to solo dev a React app featuring JS
-          minigames.
+          with new components. Returned to style a christmas quiz, then to solo
+          dev a React app with JS minigames.
         </Place>
         <Place time="Feb - Mar 2020:" place="EDD London">
           Built React UI for an e-commerce site, then lead on upgrading from
@@ -83,10 +82,9 @@ const IndexPage = () => (
           time="Feb 2014 to Jun 2015: Front end Contractor"
           place="VooDooBytes"
         >
-          Built the front end to agreatplacetobe using Mixture, Liquid, Sass
-          &amp; jQ for integration to Umbraco. Following projects included
-          Cameraworks, Rex &amp; Mariano, Eris Industries, Heineken, DMB
-          Represents, &amp; Blossom Hill.
+          Initally the front end to agreatplacetobe with Mixture, Liquid, Sass
+          &amp; jQ for integration to Umbraco. Later projects included
+          Cameraworks, Heineken, &amp; Blossom Hill.
         </Place>
         <Place time="Feb to Apr 2014" place="Maynard Malone">
           Quickly picking up Drupal, I used PHP, CSS &amp; jQ to implement new
@@ -154,8 +152,8 @@ const IndexPage = () => (
             breakdowns early.
           </Skill>
           <Skill title="Tooling">
-            VS Code, Webpack, Yarn / NPM, Git, github, Jira, Trello, Jenkins,
-            Netlify etc
+            VS Code, Webpack, Yarn / NPM, Git, CI with github &amp; Jenkins,
+            Jira, Trello, Netlify etc
           </Skill>
           {/* <Skill title="Education">
             BEng (Mechanical) at Warwick University
