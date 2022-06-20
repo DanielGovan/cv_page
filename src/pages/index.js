@@ -20,22 +20,22 @@ const IndexPage = () => (
     <MainWrap>
       <HeaderArea
         header="Dan Govan"
-        intro="Veteran front end developer &amp; middleweight React engineer with a passion for UI/UX, looking for a JS based role in a collaborative, forward-thinking team."
+        intro="Veteran front end developer with a passion for UI/UX, looking for a React / Typescript based role in a collaborative, forward-thinking team."
       />
 
       <ColumnWrap>
         <SectionHeader>Front End Contractor since 2014</SectionHeader>
-        <Place time="Apr-Jun 2021:" place="Festicket">
-          Working in a small team to build out components for a new Portal in a
-          large React / Redux codebase using TypeScript, React Testing Library,
-          React-i18next and Styled System.
+        <Place time="Apr 2021 to Jul 2021:" place="Festicket">
+          Working in a small team building out a succession of new components
+          and portals in a large mostly React / Redux codebase using TypeScript,
+          Redux Toolkit, React Testing Library, React-i18next and Styled System.
         </Place>
         <Place time="Feb 2021:" place="BDH">
           Networked Interactive Presentation app, with React/Redux front end and
           an express / sockets.io backend, fixing and improve upon a MVP after
           user testing.
         </Place>
-        <Place time="Sept 2020 to March 2021:" place="Jollywise">
+        <Place time="Sept 2020 to Mar 2021:" place="Jollywise">
           Converting a React / Redux site to a new design, and new api &amp;
           with new components. CI with github &amp; Jenkins. Returned to style a
           christmas quiz, then again to solo dev a React app featuring JS
@@ -104,8 +104,7 @@ const IndexPage = () => (
             Interim front end lead then focused to CSS &amp; UX as the team
             upscaled from 6 devs to 20.
             <br /> I also organised knowledge-sharing workshops, was on the
-            social media committee as tech voice, &amp; was in-house
-            photographer for portraits &amp; events.
+            social media committee, and portraits &amp; events photographer.
           </Place>
         </NoColWrap>
         <Place time="2011-2012: Interface Developer" place="MRM Meteorite">
