@@ -20,7 +20,7 @@ const IndexPage = () => (
     <MainWrap>
       <HeaderArea
         header="Dan Govan"
-        intro="Veteran front end developer with a passion for UI/UX, looking for a React / Typescript based role in a collaborative, forward-thinking team."
+        intro="Veteran front end developer with a passion for UI/UX, looking for a React / Typescript role in a collaborative, forward-thinking team."
       />
 
       <ColumnWrap>
@@ -30,10 +30,11 @@ const IndexPage = () => (
           &amp; portals in a large mostly React / Redux codebase using
           TypeScript, Redux Toolkit, React Testing Library, React-i18next etc.
         </Place>
-        {/* <Place time="Feb 2021:" place="BDH">
+        <Place time="Feb 2021:" place="BDH">
           Networked Interactive Presentation app, with React / Redux &amp;
-          express / sockets.io, building upon a MVP after a round of user testing.
-        </Place> */}
+          express / sockets.io, building upon a MVP after a round of user
+          testing.
+        </Place>
         <Place time="Sept 2020 to Mar 2021:" place="Jollywise">
           Converting a React / Redux site to a new design, and new api &amp;
           with new components. Returned to style a christmas quiz, then to solo
