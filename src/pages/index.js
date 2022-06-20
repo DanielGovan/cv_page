@@ -26,16 +26,16 @@ const IndexPage = () => (
       <ColumnWrap>
         <SectionHeader>Front End Contractor since 2014</SectionHeader>
         <Place time="Apr 2021 to Jul 2021:" place="Festicket">
-          Working in a small team building out a succession of new components
+          Working in small teams building out a succession of new components
           &amp; portals in a large mostly React / Redux codebase using
-          TypeScript, Redux Toolkit, React Testing Library.
+          TypeScript, Redux Toolkit, React Testing Library, React-i18next etc.
         </Place>
-        <Place time="Feb 2021:" place="BDH">
+        {/* <Place time="Feb 2021:" place="BDH">
           Networked Interactive Presentation app, with React / Redux &amp;
-          express / sockets.io, building upon a MVP after user testing.
-        </Place>
+          express / sockets.io, building upon a MVP after a round of user testing.
+        </Place> */}
         <Place time="Sept 2020 to Mar 2021:" place="Jollywise">
-          Converting a React / Redux site to a new design, &amp; new api &amp;
+          Converting a React / Redux site to a new design, and new api &amp;
           with new components. Returned to style a christmas quiz, then to solo
           dev a React app with JS minigames.
         </Place>
@@ -97,8 +97,8 @@ const IndexPage = () => (
             Responsive builds from microsites to enterprise-level CQ builds, for
             Colgate, Premier Inn &amp; Premier League including a fluid mobile
             site that got 500k uniques a day &amp; 3mil in revenue a week.
-            <br /> I also organised knowledge-sharing workshops, and was in
-            -house portraits &amp; events photographer.
+            <br /> I also organised knowledge-sharing workshops, and was
+            in-house portraits &amp; events photographer.
           </Place>
         </NoColWrap>
         <Place time="2011-2012: Interface Developer" place="MRM Meteorite">
@@ -117,20 +117,20 @@ const IndexPage = () => (
           Movies, MSN &amp; MasterCard.
           <br />
           Away from the keyboard I led initiatives in improving communication
-          between the tech &amp; creative departments, &amp; presented on
-          company values &amp; best practice.
+          between the tech &amp; creative departments, and presented on company
+          values &amp; best practice.
         </Place>
         <div class="Appendix-skills">
           <SectionHeader>Appendix</SectionHeader>
           <Skill title="2020 covid downtime">
             Designed &amp; built a Gatsby (React, GraphQL, Jamstack) photography
             website. Took courses in JavaScript Algorithms, Data Structures,
-            React Native, Redux &amp; Node.js etc.
+            React Native, Redux &amp; Node.js.
           </Skill>
           <Skill title="Scripting">
             JavaScript: ES6 &amp; beyond, React.js focus, dabbled in Node.js
-            &amp; React Native, previously worked with Angular 2, PHP &amp; a
-            variety of back ends.
+            &amp; React Native, express, sockets.io etc. Previously worked with
+            Angular 2, PHP &amp; a variety of back ends.
           </Skill>
           <Skill title="Markup">
             Semantic HTML with a mind to accessibility, SEO, scalability &amp;
@@ -139,7 +139,7 @@ const IndexPage = () => (
           </Skill>
           <Skill title="Styling">
             CSS3 (Sass, LESS, Stylus), BEM / SMACSS-based architecture, then
-            js-wrapped modules, styled components etc.
+            js-wrapped modules, styled components, styled System, etc.
           </Skill>
           {/* <Skill title="Responsive">
            
