@@ -28,13 +28,11 @@ const IndexPage = () => (
         <Place time="Apr 2021 to Jul 2021:" place="Festicket">
           Working in a small team building out a succession of new components
           &amp; portals in a large mostly React / Redux codebase using
-          TypeScript, Redux Toolkit, React Testing Library, React-i18next &amp;
-          Styled System.
+          TypeScript, Redux Toolkit, React Testing Library.
         </Place>
         <Place time="Feb 2021:" place="BDH">
-          Networked Interactive Presentation app, with React/Redux front end
-          &amp; an express / sockets.io backend, building upon a MVP after user
-          testing.
+          Networked Interactive Presentation app, with React / Redux &amp;
+          express / sockets.io, building upon a MVP after user testing.
         </Place>
         <Place time="Sept 2020 to Mar 2021:" place="Jollywise">
           Converting a React / Redux site to a new design, &amp; new api &amp;
@@ -83,12 +81,12 @@ const IndexPage = () => (
           place="VooDooBytes"
         >
           Worked on agreatplacetobe with Mixture, Liquid, Sass &amp; jQ for
-          integration to Umbraco. Then projects including Cameraworks, Heineken,
+          integration to Umbraco. Later projects included Cameraworks, Heineken,
           &amp; Blossom Hill.
         </Place>
         <Place time="Feb to Apr 2014" place="Maynard Malone">
-          Quickly picking up Drupal, I used PHP, CSS &amp; jQ to implement new
-          sections of the Organix site.
+          Quickly picking up unfamiliar Drupal, I used PHP, CSS &amp; jQ to
+          implement new sections of the Organix site.
         </Place>
         <NoColWrap>
           <SectionHeader>Permanent roles: 2006 to 2014</SectionHeader>
