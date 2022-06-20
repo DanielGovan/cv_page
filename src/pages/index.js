@@ -101,8 +101,6 @@ const IndexPage = () => (
             Responsive builds from microsites to enterprise-level CQ builds, for
             Colgate, Premier Inn &amp; Premier League including a fluid mobile
             site that got 500k uniques a day &amp; 3mil in revenue a week.
-            Interim front end lead then focused to CSS &amp; UX as the team
-            upscaled from 6 devs to 20.
             <br /> I also organised knowledge-sharing workshops, was on the
             social media committee, &amp; portraits &amp; events photographer.
           </Place>
