@@ -27,16 +27,17 @@ const IndexPage = () => (
         <SectionHeader>Front End Contractor since 2014</SectionHeader>
         <Place time="Apr 2021 to Jul 2021:" place="Festicket">
           Working in a small team building out a succession of new components
-          and portals in a large mostly React / Redux codebase using TypeScript,
-          Redux Toolkit, React Testing Library, React-i18next and Styled System.
+          &amp; portals in a large mostly React / Redux codebase using
+          TypeScript, Redux Toolkit, React Testing Library, React-i18next &amp;
+          Styled System.
         </Place>
         <Place time="Feb 2021:" place="BDH">
-          Networked Interactive Presentation app, with React/Redux front end and
-          an express / sockets.io backend, fixing and improve upon a MVP after
-          user testing.
+          Networked Interactive Presentation app, with React/Redux front end
+          &amp; an express / sockets.io backend, building upon a MVP after user
+          testing.
         </Place>
         <Place time="Sept 2020 to Mar 2021:" place="Jollywise">
-          Converting a React / Redux site to a new design, and new api &amp;
+          Converting a React / Redux site to a new design, &amp; new api &amp;
           with new components. CI with github &amp; Jenkins. Returned to style a
           christmas quiz, then again to solo dev a React app featuring JS
           minigames.
@@ -54,13 +55,13 @@ const IndexPage = () => (
           Using React, modular scss &amp; Storybook to implement a new
           registration &amp; onboarding system.
         </Place>
-        <Place time="May and Sept-Oct 2018:" place="22 design">
+        <Place time="May &amp; Sept-Oct 2018:" place="22 design">
           Projects included a banner for the front page of Talk Talk in HTML 5,
-          prototyping a JS 360 spinner, updating an Opencart website and
+          prototyping a JS 360 spinner, updating an Opencart website &amp;
           building a interactive quiz module.
         </Place>
         <Place time="May to Sept 2018:" place="KoffeeCup">
-          Tackled a legacy Angular / Cordova app for onsite tablet and kiosk;
+          Tackled a legacy Angular / Cordova app for onsite tablet &amp; kiosk;
           reworking content, assets &amp; structure.
         </Place>
         <Place
@@ -70,14 +71,13 @@ const IndexPage = () => (
           Building an evolving UX &amp; Front End, taming sprawling legacy CSS
           &amp; maintaining an extensive design system using practical BEM,
           Stylus/SASS, Django templating &amp; later React. A highlight was a
-          complete site redesign using only a CSS retheme.
+          complete sitewide redesign using only a CSS retheme.
         </Place>
         <Place
           time="Jul 2014 to Jun 2015: Creative Technologist (part time)"
           place="MetaBroadcast"
         >
-          Joined a back end team building UIs for prototype metadata tools for
-          the BBC.
+          Building UIs consuming a back end team's prototype metadata APIs.
         </Place>
         <Place
           time="Feb 2014 to Jun 2015: Front end Contractor"
@@ -104,7 +104,7 @@ const IndexPage = () => (
             Interim front end lead then focused to CSS &amp; UX as the team
             upscaled from 6 devs to 20.
             <br /> I also organised knowledge-sharing workshops, was on the
-            social media committee, and portraits &amp; events photographer.
+            social media committee, &amp; portraits &amp; events photographer.
           </Place>
         </NoColWrap>
         <Place time="2011-2012: Interface Developer" place="MRM Meteorite">
@@ -129,14 +129,14 @@ const IndexPage = () => (
         <div class="Appendix-skills">
           <SectionHeader>Appendix</SectionHeader>
           <Skill title="2020 covid downtime">
-            Designed and built a Gatsby (React, GraphQL, Jamstack) photography
+            Designed &amp; built a Gatsby (React, GraphQL, Jamstack) photography
             website. Took courses in JavaScript Algorithms, Data Structures,
-            React Native, Redux and Node.js etc.
+            React Native, Redux &amp; Node.js etc.
           </Skill>
           <Skill title="Scripting">
-            JavaScript: ES6 and beyond, React.js focus, dabbled in Node.js and
-            React Native, previously worked with Angular 2, PHP &amp; a variety
-            of back ends.
+            JavaScript: ES6 &amp; beyond, React.js focus, dabbled in Node.js
+            &amp; React Native, previously worked with Angular 2, PHP &amp; a
+            variety of back ends.
           </Skill>
           <Skill title="Markup">
             Semantic HTML with a mind to accessibility, SEO, scalability &amp;
