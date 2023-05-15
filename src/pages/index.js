@@ -25,6 +25,13 @@ const IndexPage = () => (
 
       <ColumnWrap>
         <SectionHeader>Front End Contractor since 2014</SectionHeader>
+        <Place time="Jul 2022 to Apr 2023:" place="EDD London">
+          Typescript / React with styled jsx then JSS then TSS. Architecting
+          &amp; building components for Next.js consuming a custom Headless CMS,
+          then building a UI library with Chakra UI, laying the groundwork for a
+          white label offering. Lead a junior building react components in
+          storybook.
+        </Place>
         <Place time="Apr 2021 to Jul 2021:" place="Festicket">
           Working in small teams building out a succession of new components
           &amp; portals in a large mostly React / Redux codebase using
@@ -81,7 +88,7 @@ const IndexPage = () => (
           time="Feb 2014 to Jun 2015: Front end Contractor"
           place="VooDooBytes"
         >
-          Worked on agreatplacetobe with Mixture, Liquid, Sass &amp; jQ for
+          agreatplacetobe front end with Mixture, Liquid, Sass &amp; jQ for
           integration to Umbraco. Later projects included Cameraworks, Heineken,
           &amp; Blossom Hill.
         </Place>
@@ -151,8 +158,8 @@ const IndexPage = () => (
             breakdowns early.
           </Skill>
           <Skill title="Tooling">
-            VS Code, Webpack, Yarn / NPM, Git, CI with github &amp; Jenkins,
-            Jira, Trello, Netlify etc
+            VS Code, Webpack, Figma, Fibery, Azure, Chromatic, Yarn / NPM, Git,
+            CI with github &amp; Jenkins, Jira, Trello, Netlify etc
           </Skill>
           {/* <Skill title="Education">
             BEng (Mechanical) at Warwick University
