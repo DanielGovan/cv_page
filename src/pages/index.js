@@ -27,10 +27,10 @@ const IndexPage = () => (
         <SectionHeader>Front End Contractor since 2014</SectionHeader>
         <Place time="Jul 2022 to Apr 2023:" place="EDD London">
           Typescript / React with styled jsx then JSS then TSS. Architecting
-          &amp; building components for Next.js consuming a custom Headless CMS,
-          then building a UI library with Chakra UI, laying the groundwork for a
-          white label offering. Lead a junior building react components in
-          storybook.
+          &amp; building components for Next.js consuming a custom Headless CMS
+          with Umbraco, building a UI library with Chakra UI, laying the
+          groundwork for a white label offering. Lead a junior building react
+          components in storybook.
         </Place>
         <Place time="Apr 2021 to Jul 2021:" place="Festicket">
           Working in small teams building out a succession of new components
