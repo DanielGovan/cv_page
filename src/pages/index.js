@@ -44,9 +44,9 @@ const IndexPage = () => (
           testing.
         </Place> */}
         <Place time="Sept 2020 to Mar 2021:" place="Jollywise">
-          Converting a React / Redux site to a new design, and new api &amp;
-          with new components. Returned to style a christmas quiz, then to solo
-          dev a React app with JS minigames.
+          Updating a React / Redux site to a new design, api and components.
+          Later projects included christmas quiz, and a set of React / JS
+          minigames.
         </Place>
         <Place time="Feb - Mar 2020:" place="EDD London">
           Built React UI for an e-commerce site, then lead on upgrading from
@@ -70,10 +70,7 @@ const IndexPage = () => (
           Tackled a legacy Angular / Cordova app for onsite tablet &amp; kiosk;
           reworking content, assets &amp; structure.
         </Place>
-        <Place
-          time="Jul 2015 to Dec 2017: Front end Contractor"
-          place="YunoJuno"
-        >
+        <Place time="Jul 2015 to Dec 2017:" place="YunoJuno">
           Building an evolving UX &amp; Front End, taming sprawling legacy CSS
           &amp; maintaining an extensive design system using practical BEM,
           Stylus/SASS, Django templating &amp; later React. A highlight was a
@@ -85,10 +82,7 @@ const IndexPage = () => (
         >
           Building UIs consuming a back end team's prototype metadata APIs.
         </Place>
-        <Place
-          time="Feb 2014 to Jun 2015: Front end Contractor"
-          place="VooDooBytes"
-        >
+        <Place time="Feb 2014 to Jun 2015:" place="VooDooBytes">
           agreatplacetobe front end with Mixture, Liquid, Sass &amp; jQ for
           integration to Umbraco. Later projects included Cameraworks, Heineken,
           &amp; Blossom Hill.
