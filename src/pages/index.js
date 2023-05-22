@@ -26,11 +26,12 @@ const IndexPage = () => (
       <ColumnWrap>
         <SectionHeader>Front End Contractor since 2014</SectionHeader>
         <Place time="Jul 2022 to Apr 2023:" place="EDD London">
-          Typescript / React with styled jsx then JSS then TSS. Architecting
-          &amp; building components for Next.js consuming a custom Headless CMS
-          with Umbraco, building a UI library with Chakra UI, laying the
-          groundwork for a white label booking system offering. Lead juniors on
-          building react components in storybook.
+          Typescript / React with styled jsx then JSS then TSS, architecting
+          &amp; building components for Next.js, consuming a custom Headless CMS
+          with Umbraco. Built a UI library with Chakra UI, laying the groundwork
+          for a white label booking system offering &amp; lead juniors adding to
+          it. React Hook Forms, mocking with Faker &amp; MSW and Storybook,
+          state with React Query, animation with framer motion.
         </Place>
         <Place time="Apr 2021 to Jul 2021:" place="Festicket">
           Working in small teams building out a succession of new components
@@ -86,10 +87,10 @@ const IndexPage = () => (
           Mixture, Liquid, Sass &amp; jQ for integration to Umbraco on
           agreatplacetobe, Cameraworks, Heineken, &amp; Blossom Hill.
         </Place>
-        <Place time="Feb to Apr 2014" place="Maynard Malone">
+        {/* <Place time="Feb to Apr 2014" place="Maynard Malone">
           Quickly picking up unfamiliar Drupal, I used PHP, CSS &amp; jQ to
           implement new sections of the Organix site.
-        </Place>
+        </Place> */}
         <NoColWrap>
           <SectionHeader>Permanent roles: 2006 to 2014</SectionHeader>
           <Place
@@ -125,19 +126,25 @@ const IndexPage = () => (
         <div class="Appendix-skills">
           <SectionHeader>Appendix</SectionHeader>
           <Skill title="Scripting">
-            JavaScript: ES6 &amp; beyond, React.js focus, worked in Node.js
-            &amp; dabbled with React Native, express, sockets.io etc. Previously
-            with Angular 2, PHP &amp; a variety of back ends.
+            ES6+, React.js focus, worked in Node.js &amp; dabbled with React
+            Native, express, sockets.io etc. Previously with Angular 2, PHP
+            &amp; a variety of back ends.
+          </Skill>
+          <Skill title="React">
+            Recent work has included forms with React Hook Form or Formik,
+            mocking with faker and msw, state management with react-query or
+            redux toolkit, animation with framer-motion, SSR with nextjs or
+            gatsby.
           </Skill>
           <Skill title="Styling">
             CSS3 (Sass, LESS, Stylus), BEM / SMACSS-based architecture, then
-            js-wrapped modules, styled components, styled System, styled jsx,
-            JSS, TSS etc, ie CSS in JS.
+            js-wrapped modules, styled components, styled system, styled jsx,
+            JSS, TSS etc.
           </Skill>
           <Skill title="Markup">
             Semantic HTML with a mind to accessibility, SEO, scalability &amp;
-            localisation. The practical challenges of performant device-agnostic
-            websites, as well as mobile &amp; tablet-specific solutions.
+            localisation. The practical challenges of keeping apps and websites
+            performant and device-agnostic.
           </Skill>
           <Skill title="Design">
             Talking to creatives on their own terms, adding interstitial layouts
