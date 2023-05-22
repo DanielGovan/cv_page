@@ -93,10 +93,10 @@ const IndexPage = () => (
           integration to Umbraco. Later projects included Cameraworks, Heineken,
           &amp; Blossom Hill.
         </Place>
-        <Place time="Feb to Apr 2014" place="Maynard Malone">
+        {/* <Place time="Feb to Apr 2014" place="Maynard Malone">
           Quickly picking up unfamiliar Drupal, I used PHP, CSS &amp; jQ to
           implement new sections of the Organix site.
-        </Place>
+        </Place> */}
         <NoColWrap>
           <SectionHeader>Permanent roles: 2006 to 2014</SectionHeader>
           <Place
