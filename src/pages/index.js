@@ -29,13 +29,14 @@ const IndexPage = () => (
           Typescript / React with styled jsx then JSS then TSS. Architecting
           &amp; building components for Next.js consuming a custom Headless CMS
           with Umbraco, building a UI library with Chakra UI, laying the
-          groundwork for a white label offering. Lead a junior building react
-          components in storybook.
+          groundwork for a white label booking system offering. Lead juniors on
+          building react components in storybook.
         </Place>
         <Place time="Apr 2021 to Jul 2021:" place="Festicket">
           Working in small teams building out a succession of new components
           &amp; portals in a large mostly React / Redux codebase using
-          TypeScript, Redux Toolkit, React Testing Library, React-i18next etc.
+          TypeScript, Redux Toolkit, Jest / React Testing Library, React-i18next
+          etc. Some PHP templating with Twig, avoiding legacy PHPTal.
         </Place>
         {/* <Place time="Feb 2021:" place="BDH">
           Networked Interactive Presentation app, with React / Redux &amp;
@@ -130,36 +131,36 @@ const IndexPage = () => (
         </Place>
         <div class="Appendix-skills">
           <SectionHeader>Appendix</SectionHeader>
-          <Skill title="2020 covid downtime">
-            Designed &amp; built a Gatsby (React, GraphQL, Jamstack) photography
-            website. Took courses in JavaScript Algorithms, Data Structures,
-            React Native, Redux &amp; Node.js.
-          </Skill>
           <Skill title="Scripting">
-            JavaScript: ES6 &amp; beyond, React.js focus, dabbled in Node.js
-            &amp; React Native, express, sockets.io etc. Previously worked with
-            Angular 2, PHP &amp; a variety of back ends.
+            JavaScript: ES6 &amp; beyond, React.js focus, worked in Node.js
+            &amp; dabbled with React Native, express, sockets.io etc. Previously
+            with Angular 2, PHP &amp; a variety of back ends.
+          </Skill>
+          <Skill title="Styling">
+            CSS3 (Sass, LESS, Stylus), BEM / SMACSS-based architecture, then
+            js-wrapped modules, styled components, styled System, styled jsx,
+            JSS, TSS etc, ie CSS in JS.
           </Skill>
           <Skill title="Markup">
             Semantic HTML with a mind to accessibility, SEO, scalability &amp;
             localisation. The practical challenges of performant device-agnostic
             websites, as well as mobile &amp; tablet-specific solutions.
           </Skill>
-          <Skill title="Styling">
-            CSS3 (Sass, LESS, Stylus), BEM / SMACSS-based architecture, then
-            js-wrapped modules, styled components, styled System, etc.
-          </Skill>
-          {/* <Skill title="Responsive">
-           
-          </Skill> */}
           <Skill title="Design">
             Talking to creatives on their own terms, adding interstitial layouts
             &amp; interactions that creative comps don't cover, identifying UX
             breakdowns early.
           </Skill>
           <Skill title="Tooling">
-            VS Code, Webpack, Figma, Fibery, Azure, Chromatic, Yarn / NPM, Git,
-            CI with github &amp; Jenkins, Jira, Trello, Netlify etc
+            VS Code, Docker, Webpack, Figma, Fibery, Azure, Chromatic, Yarn /
+            NPM, Git, CI with github &amp; Jenkins, Travis and Semaphore, Jira,
+            Trello, Netlify etc
+          </Skill>
+          <Skill title="Side projects">
+            Designed &amp; built a Gatsby (React, GraphQL, Jamstack) photography
+            website, later rebuild in Typescript & Chakra. Took courses in
+            JavaScript Algorithms, Data Structures, React Native, Redux &amp;
+            Node.js.
           </Skill>
           {/* <Skill title="Education">
             BEng (Mechanical) at Warwick University
