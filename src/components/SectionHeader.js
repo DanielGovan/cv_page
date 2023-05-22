@@ -7,12 +7,15 @@ const StyledSectionHeader = styled.div`
   font-size: 1.8rem;
   color: #bbb;
   letter-spacing: 2px;
-  margin: 1rem 0 0;
+  margin: 2rem 0 0;
+
+  &:nth-child(1) {
+    margin: 0rem 0 0;
+  }
 
   @media print {
     letter-spacing: normal !important;
     font-size: 1.2rem !important;
-    padding: 1rem 0 0 0 !important;
   }
 `;
 

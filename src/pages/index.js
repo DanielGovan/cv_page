@@ -43,55 +43,53 @@ const IndexPage = () => (
           express / sockets.io, building upon a MVP after a round of user
           testing.
         </Place> */}
-        <NoColWrap>
-          <Place time="Sept 2020 to Mar 2021:" place="Jollywise">
-            Updating a React / Redux site to a new design, api and components.
-            Later projects included christmas quiz, and a set of React / JS
-            minigames.
-          </Place>
-          <Place time="Feb - Mar 2020:" place="EDD London">
-            Brought on to built React UI for an e-commerce site, then lead on
-            upgrading from desktop-only to device agnostic.
-          </Place>
-          <Place time="Oct 2019 - Feb 2020:" place="Rehab Agency">
-            Built 8 localisations of 6 iterations of an educational tool. Used
-            React, hooks, CSS modules, JSON, SCORM &amp; Sketch. Advised on
-            bringing parallel projects up to speed.
-          </Place>
-          <Place time="May-Aug 2019:" place="YunoJuno">
-            Using React, modular scss &amp; Storybook to implement a new
-            registration &amp; onboarding system.
-          </Place>
-          <Place time="May &amp; Sept-Oct 2018:" place="22 design">
-            Projects included a banner for the front page of Talk Talk in HTML
-            5, prototyping a JS 360 spinner, updating an Opencart website &amp;
-            building a interactive quiz module.
-          </Place>
-          <Place time="May to Sept 2018:" place="KoffeeCup">
-            Tackled a legacy Angular / Cordova app for onsite tablet &amp;
-            kiosk; reworking content, assets &amp; structure.
-          </Place>
-          <Place time="Jul 2015 to Dec 2017:" place="YunoJuno">
-            Building an evolving UX &amp; Front End, taming sprawling legacy CSS
-            &amp; maintaining an extensive design system using practical BEM,
-            Stylus/SASS, Django templating &amp; later React. A highlight was a
-            complete sitewide redesign using only a CSS retheme.
-          </Place>
-          <Place
-            time="Jul 2014 to Jun 2015: Creative Technologist"
-            place="MetaBroadcast"
-          >
-            Rapid prototyping creating UIs to consume metadata APIs.
-          </Place>
-          <Place time="Feb 2014 to Jun 2015:" place="VooDooBytes">
-            Mixture, Liquid, Sass &amp; jQ for integration to Umbraco on
-            agreatplacetobe, Cameraworks, Heineken, &amp; Blossom Hill.
-          </Place>
-          <Place time="Feb to Apr 2014" place="Maynard Malone">
-            Quickly picking up unfamiliar Drupal, I used PHP, CSS &amp; jQ to
-            implement new sections of the Organix site.
-          </Place>
-        </NoColWrap>
+        <Place time="Sept 2020 to Mar 2021:" place="Jollywise">
+          Updating a React / Redux site to a new design, api and components.
+          Later projects included christmas quiz, and a set of React / JS
+          minigames.
+        </Place>
+        <Place time="Feb - Mar 2020:" place="EDD London">
+          Brought on to built React UI for an e-commerce site, then lead on
+          upgrading from desktop-only to device agnostic.
+        </Place>
+        <Place time="Oct 2019 - Feb 2020:" place="Rehab Agency">
+          Built 8 localisations of 6 iterations of an educational tool. Used
+          React, hooks, CSS modules, JSON, SCORM &amp; Sketch. Advised on
+          bringing parallel projects up to speed.
+        </Place>
+        <Place time="May-Aug 2019:" place="YunoJuno">
+          Using React, modular scss &amp; Storybook to implement a new
+          registration &amp; onboarding system.
+        </Place>
+        <Place time="May &amp; Sept-Oct 2018:" place="22 design">
+          Projects included a banner for the front page of Talk Talk in HTML 5,
+          prototyping a JS 360 spinner, updating an Opencart website &amp;
+          building a interactive quiz module.
+        </Place>
+        <Place time="May to Sept 2018:" place="KoffeeCup">
+          Tackled a legacy Angular / Cordova app for onsite tablet &amp; kiosk;
+          reworking content, assets &amp; structure.
+        </Place>
+        <Place time="Jul 2015 to Dec 2017:" place="YunoJuno">
+          Building an evolving UX &amp; Front End, taming sprawling legacy CSS
+          &amp; maintaining an extensive design system using practical BEM,
+          Stylus/SASS, Django templating &amp; later React. A highlight was a
+          complete sitewide redesign using only a CSS retheme.
+        </Place>
+        <Place
+          time="Jul 2014 to Jun 2015: Creative Technologist"
+          place="MetaBroadcast"
+        >
+          Rapid prototyping creating UIs to consume metadata APIs.
+        </Place>
+        <Place time="Feb 2014 to Jun 2015:" place="VooDooBytes">
+          Mixture, Liquid, Sass &amp; jQ for integration to Umbraco on
+          agreatplacetobe, Cameraworks, Heineken, &amp; Blossom Hill.
+        </Place>
+        <Place time="Feb to Apr 2014" place="Maynard Malone">
+          Quickly picking up unfamiliar Drupal, I used PHP, CSS &amp; jQ to
+          implement new sections of the Organix site.
+        </Place>
         <NoColWrap>
           <SectionHeader>Permanent roles: 2006 to 2014</SectionHeader>
           <Place
