@@ -49,8 +49,8 @@ const IndexPage = () => (
           minigames.
         </Place>
         <Place time="Feb - Mar 2020:" place="EDD London">
-          Built React UI for an e-commerce site, then lead on upgrading from
-          desktop-only to device agnostic.
+          Brought on to built React UI for an e-commerce site, then lead on
+          upgrading from desktop-only to device agnostic.
         </Place>
         <Place time="Oct 2019 - Feb 2020:" place="Rehab Agency">
           Built 8 localisations of 6 iterations of an educational tool. Used
@@ -80,7 +80,7 @@ const IndexPage = () => (
           time="Jul 2014 to Jun 2015: Creative Technologist"
           place="MetaBroadcast"
         >
-          Building UIs consuming a back end team's prototype metadata APIs.
+          Rapid prototyping creating UIs to consume metadata APIs.
         </Place>
         <Place time="Feb 2014 to Jun 2015:" place="VooDooBytes">
           agreatplacetobe front end with Mixture, Liquid, Sass &amp; jQ for
