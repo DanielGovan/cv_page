@@ -58,13 +58,13 @@ const IndexPage = () => (
     <MainWrap>
       <HeaderArea
         header="Dan Govan"
-        intro="Veteran front end developer with a passion for UI/UX, looking for a React / Typescript role in a collaborative, forward-thinking team."
+        intro="Veteran senior front end developer with a passion for UI/UX, looking for a React / Typescript role in a collaborative, forward-thinking team."
       />
       <Section>
         <SectionHeader>Elevator pitch</SectionHeader>
         <Para>
-          As an agency-side web developer from 2006 I had the opportunity to
-          work on a range of brochure-wear sites for big names, always building
+          As an agency-side web developer from 2006, I had the opportunity to
+          work on a range of brochure-wear sites for big names; always building
           with a mind to fidelity, accessibility and internationalisation. As
           the front end was always the linchpin between back end, design and
           copy I was able to collaborate with and learn from professionals from
@@ -73,14 +73,15 @@ const IndexPage = () => (
         <Para>
           In 2014 I transitioned into contracting, expanding my scope to work
           with smaller agencies as well as in-house teams. The agency pace
-          proved invaluable as I became practiced in quickly picking up new
+          proved invaluable as I became well versed in quickly picking up new
           frameworks, design patterns and legacy codebases to work on sites and
           apps of all sizes from SPAs to complex product platforms. As I pushed
-          my skillset forward my work became increasingly JS, with the last five
-          years being focused on React, and the last two in Typescript.
+          my skill set forward my work became increasingly JavaScript, with the
+          last five years being focused on React, and the last two working in
+          Typescript.
         </Para>
         <Para>
-          In 2023 I aspire to join a curious, diverse, collaborative and
+          Now I aspire to join a curious, diverse, collaborative and
           forward-looking team, supported by modern testing and devops, in
           building a high quality, impactful product.
         </Para>
@@ -92,20 +93,20 @@ const IndexPage = () => (
           <Para>
             An agency role on a series of projects included two booking
             platforms and one CMSd showcase site for the agency itself (which I
-            was also able to do the photography for). All of them involved
-            prototyping components in Typescript and React and Storybook before
-            integrating them into a dynamic SSR Next.JS app.
+            also did the photography for). All of them involved prototyping
+            components in Typescript and React and Storybook before integrating
+            them into a dynamic SSR Next.JS app.
           </Para>
           <Para>
             Built a UI library extending Chakra UI with custom components to
-            take advantage of their themeing system and laying the groundwork
-            for a white label offering.
+            take advantage of their theming system and laying the groundwork for
+            a white label offering.
           </Para>
           <Para>
             Forms with React Hook Forms, mocking with Faker &amp; MSW, state and
             data fetching with React Query, animation with framer motion, and
-            for the CMS content we consumed a custom Headless CMS. Also had the
-            opportunity to lead two developers.
+            for the CMS content we consumed a custom Headless CMS. Also lead two
+            developers on building out React components.
           </Para>
         </Place>
         {/* <Place time="Nov 2022 to Jan 2023" place="Side project">
@@ -122,8 +123,8 @@ const IndexPage = () => (
           }
           <Para>
             An in-house role on the product side of an event ticket marketplace
-            platorm, building interfaces to increase transparency to partners on
-            fees and sales performance. Working in small teams we built out a
+            platform, building interfaces to increase transparency to partners
+            on fees and sales performance. Working in small teams we built out a
             succession of portals and other components in a large mostly React /
             Redux codebase.
           </Para>
@@ -141,15 +142,16 @@ const IndexPage = () => (
         </Place> */}
         <Place time="Sept 2020 - Mar 2021" place="Jollywise">
           <Para>
-            Agency role firstly on updating a React / Redux content-driven site
-            for a TV show to a new design, api and components.
+            Agency role, firstly working on updating a React / Redux
+            content-driven site for a TV show to a new design, api and
+            components.
           </Para>
           <Para>
-            Later projects were smaller SPAs including a company christmas quiz,
-            and a set of React / JS dragon-themed minigames.
+            Later projects were smaller SPAs including a company Christmas quiz,
+            and a set of React / JS dragon-themed mini games.
           </Para>
         </Place>
-        <Place time="Feb - Mar 2020" place="EDD London">
+        <Place time="Feb - Mar 2020 / Jun 2020" place="EDD London">
           <Para>
             Agency role on a camera rental e-commerce site; brought onto an
             existing project to replace an ill team member, first built some
@@ -157,7 +159,7 @@ const IndexPage = () => (
             desktop-specific to device-agnostic.
           </Para>
         </Place>
-        <Place time="Oct 2019 - Feb 2020" place="Rehab Agency">
+        <Place time="Oct 2019 - Feb 2020  / Jun 2020" place="Rehab Agency">
           <Para>
             Working on a SCORM-based anti-phishing educational tool, I built 8
             localisations of 6 iterations, consuming a great deal of copy in
@@ -169,7 +171,7 @@ const IndexPage = () => (
         <Place time="May - Aug 2019" place="YunoJuno">
           <Para>
             Returning to this in-house product team for my first React-based
-            role, we used it wit, modular scss &amp; Storybook to prototype and
+            role, we used it with modular scss &amp; Storybook to prototype and
             implement a new registration &amp; onboarding system to their
             freelancer platform.
           </Para>
@@ -193,11 +195,11 @@ const IndexPage = () => (
         <Place time="Jul 2015 - Dec 2017" place="YunoJuno">
           <Para>
             A long running in-house role working on a platform to connect the
-            best freelances with forward thinking companies. On the product team
-            building out an evolving UX &amp; Front End for the platform, taming
-            sprawling legacy CSS &amp; built in the startup years, maintaining
-            an extensive design system using practical BEM, Stylus/SASS and
-            Django templating &amp; later moving to React.
+            best freelancers with forward thinking companies. On the product
+            team building out an evolving UX &amp; Front End for the platform,
+            taming sprawling legacy CSS &amp; built in the startup years,
+            maintaining an extensive design system using practical BEM,
+            Stylus/SASS and Django templating &amp; later moving to React.
           </Para>
           <Para>
             A highlight was carrying out a complete platform-wide redesign using
@@ -258,8 +260,8 @@ const IndexPage = () => (
           <Para>
             Interface Developer building microsites for Vauxhall &amp;
             Nationwide, an Intel facebook campaign, iPad site for Regus, a
-            Phonegapped iphone app for The Mall &amp; championed responsive
-            &amp; parallax design.
+            PhoneGap'd iphone app for The Mall &amp; championed responsive &amp;
+            parallax design.
           </Para>
         </Place>
         <Place
@@ -285,20 +287,21 @@ const IndexPage = () => (
       <div class="Appendix-skills">
         <ColumnWrap>
           {
-            // Swap out for stuff in the Elevator pitch / what I'm looking for.
+            // Add a bit about how I learned React myself
           }
 
           <Skill title="React">
-            Recent work has included forms with React Hook Form or Formik,
-            mocking with faker and msw, state management with react-query or
-            redux toolkit, animation with framer-motion, SSR with nextjs or
-            gatsby. Previously used Redux and Redux Toolkit for data fetching
-            and state management.
+            I picked up React between contracts in 2018 and it's been my focus
+            ever since. Recent work has included forms with React Hook Form or
+            Formik, mocking with faker and msw, state management with
+            react-query or redux toolkit, animation with framer-motion, SSR with
+            Next.js or gatsby. Previously used Redux and Redux Toolkit for data
+            fetching and state management.
           </Skill>
 
           <Skill title="Scripting">
             I've been working with JS since 2014 and my last 2 years have had a
-            Typescript focus. Mostly front end with React but i'm used to
+            Typescript focus. Mostly front end with React but I'm used to
             chipping in with bits of Node.js. I've also dabbled with React
             Native, express, sockets.io etc, and previously with Angular 2, PHP
             &amp; a variety of back ends.
@@ -312,7 +315,7 @@ const IndexPage = () => (
 
           <Skill title="Styling">
             My first job in 2006 was reducing the size of the CSS file for a
-            well trafficed Intel site so it's influenced my background. CSS3
+            well trafficked Intel site so it's influenced my background. CSS3
             (Sass, LESS, Stylus), BEM / SMACSS-based architecture, then
             js-wrapped modules, styled components, styled system, styled jsx,
             JSS, TSS etc.
@@ -330,7 +333,7 @@ const IndexPage = () => (
               // CI
             }
             VS Code, Docker, Webpack, Figma, Fibery, Azure, Chromatic, Yarn /
-            NPM, Git, CI with github &amp; Jenkins, Travis and Semaphore, Jira,
+            NPM, Git, CI with GitHub &amp; Jenkins, Travis and Semaphore, Jira,
             Trello, Netlify etc
           </Skill>
 
