@@ -4,10 +4,11 @@ import styled from "styled-components";
 const StyledSectionHeader = styled.div`
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: #bbb;
   letter-spacing: 2px;
-  margin: 2rem 0 0;
+  margin: 2rem 0 1rem;
+  text-align:
 
   &:nth-child(1) {
     margin: 0rem 0 0;
@@ -15,7 +16,8 @@ const StyledSectionHeader = styled.div`
 
   @media print {
     letter-spacing: normal !important;
-    font-size: 1.2rem !important;
+    font-size: 1.5rem !important;
+    margin: 1rem 0 0rem;
   }
 `;
 

@@ -10,10 +10,10 @@ const StyledHeaderArea = styled.div`
   margin: 0 0 20px 0;
 
   @media screen and (min-width: 1000px) {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.2fr;
   }
   @media print {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.2fr;
   }
 `;
 
@@ -39,6 +39,7 @@ const StyledIntro = styled.p`
   margin: 0;
 
   @media print {
+    margin-top: 10px;
     text-shadow: none !important;
     font-size: 1.1rem !important;
     line-height: 1 !important;

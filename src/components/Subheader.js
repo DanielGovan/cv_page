@@ -20,7 +20,7 @@ const StyledSubheader = styled.h3`
     line-height: 1;
 
     @media print {
-      font-size: 0.68em;
+      font-size: 0.78em;
     }
   }
 `;

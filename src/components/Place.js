@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Para from "./Para";
 import Subheader from "./Subheader";
+import ColumnWrap from "./ColumnWrap";
 
 const StyledPlace = styled.div`
   @media screen {
@@ -12,14 +13,15 @@ const StyledPlace = styled.div`
   break-inside: avoid;
 `;
 
-const Place = ({ time, place, children }) => {
+const Place = ({ time, place, type, children }) => {
   return (
     <StyledPlace>
       <Subheader>
-        <span class="dateText">{time}</span>
         {place}
+        <span class="dateText">{time}</span>
+        <span class="dateText">{type}</span>
       </Subheader>
-      <Para>{children}</Para>
+      {children}
     </StyledPlace>
   );
 };

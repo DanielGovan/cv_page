@@ -4,6 +4,8 @@ import Para from "./Para";
 import Subheader from "./Subheader";
 
 const StyledSkill = styled.div`
+  --webkit-column-break-inside: avoid;
+  break-inside: avoid;
   h3 {
     margin: 0;
   }
@@ -11,7 +13,7 @@ const StyledSkill = styled.div`
     margin-top: 0.4rem;
     h3 {
       margin-right: 0.2rem;
-      display: inline;
+      /* display: inline; */
       line-height: 1;
     }
   }
@@ -20,10 +22,8 @@ const StyledSkill = styled.div`
 const Skill = ({ title, children }) => {
   return (
     <StyledSkill>
-      <Para>
-        <Subheader>{title}</Subheader>
-        {children}
-      </Para>
+      <Subheader>{title}</Subheader>
+      <Para>{children}</Para>
     </StyledSkill>
   );
 };

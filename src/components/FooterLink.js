@@ -10,6 +10,7 @@ const StyledLink = styled.div`
     color: #a4000e;
     border: none !important;
     text-decoration: none;
+    margin-right: 10px;
     &:hover {
       text-decoration: underline;
     }
@@ -34,6 +35,7 @@ const StyledLink = styled.div`
     &[data-print]:after {
       content: " " attr(data-print) " ";
       font-family: monospace;
+      margin-right: 10px;
     }
 
     a {
