@@ -108,8 +108,8 @@ const IndexPage = () => (
             RTL.
           </Skill>
           <Skill title="Scripting">
-            My first JavaScript specific role was in 2014, by 2018 it was all
-            JavaScript, with the last 2 years in TypeScript. Mostly frontend
+            My first JavaScript specific role was in 2014, and by 2018 it was
+            all JavaScript, with the last 2 years in TypeScript. Mostly frontend
             with React, RESTful APIs etc, but regularly contributing to Node
             backends. I've also worked with React Native, express, socket.io
             etc, and previously with Angular 2, PHP &amp; and had exposure to a
@@ -122,12 +122,12 @@ const IndexPage = () => (
             components, styled system, styled jsx, JSS, TSS etc.
           </Skill>
           <Skill title="Markup">
-            A background in building EMEA sites for international brands like
-            Vauxhall or Colgate gave me a grounding in building semantic HTML
-            since 2006 with a mind to accessibility, SEO, scalability &amp;
-            unexpected localisation. The practical challenges of keeping apps
-            and websites performant and device-agnostic. I've also learned (and
-            forgotten) a bewildering array of templating syntaxes.
+            Building international EMEA sites for brands like Vauxhall or
+            Colgate gave me a grounding in semantic HTML with a mind to
+            accessibility, SEO, scalability &amp; unexpected localisation. The
+            practical challenges of keeping apps and websites performant and
+            device-agnostic. I've also learned (and forgotten) a bewildering
+            array of templating syntaxes.
           </Skill>
           <Skill title="Design">
             Talking to creatives on their own terms, translating and pulling
