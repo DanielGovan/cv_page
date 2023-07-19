@@ -51,6 +51,20 @@ const Section = ({ children }) => {
   return <StyledSection>{children}</StyledSection>;
 };
 
+const StyledSmolSection = styled.div`
+  @media screen and (min-width: 1000px) {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  @media print {
+    /* margin-top: 1rem; */
+  }
+`;
+
+const SmolSection = ({ children }) => {
+  return <StyledSmolSection>{children}</StyledSmolSection>;
+};
+
 const IndexPage = () => (
   <Layout>
     <SEO title="CV" />
@@ -58,108 +72,160 @@ const IndexPage = () => (
     <MainWrap>
       <HeaderArea
         header="Dan Govan"
-        intro="Veteran senior front end developer with a passion for UI/UX, looking for a React / Typescript role in a collaborative, forward-thinking team."
+        intro="Senior frontend software engineer
+        with a passion for UI/UX and over 17 years experience building for the web"
       />
-      <Section>
-        <SectionHeader>Elevator pitch</SectionHeader>
-        <Para>
-          As an agency-side web developer from 2006, I had the opportunity to
-          work on a range of brochure-wear sites for big names; always building
-          with a mind to fidelity, accessibility and internationalisation. As
-          the front end was always the linchpin between back end, design and
-          copy I was able to collaborate with and learn from professionals from
-          a range of disciplines, something I still enjoy today.
-        </Para>
-        <Para>
-          In 2014 I transitioned into contracting, expanding my scope to work
-          with smaller agencies as well as in-house teams. The agency pace
-          proved invaluable as I became well versed in quickly picking up new
-          frameworks, design patterns and legacy codebases to work on sites and
-          apps of all sizes from SPAs to complex product platforms. As I pushed
-          my skill set forward my work became increasingly JavaScript, with the
-          last five years being focused on React, and the last two working in
-          Typescript.
-        </Para>
-        <Para>
-          Now I aspire to join a curious, diverse, collaborative and
-          forward-looking team, supported by modern testing and devops, in
-          building a high quality, impactful product.
-        </Para>
-      </Section>
+      {
+        // My first job in 2006 was reducing the size of the CSS file for a
+        // well-trafficked Intel.
+      }
+
+      {/* <SectionHeader>Overview</SectionHeader>
+      <Para>
+        An agency-side web developer from 2006, I worked on sites of all sizes
+        for big names like Intel, Vauxhall, Nationwide, Colgate and Premier Inn,
+        always building with a mind to accessibility and internationalisation.
+      </Para>
+      <Para>
+        In 2014 I transitioned into contracting, expanding my scope to work with
+        smaller agencies and in-house teams. From content-driven sites to SPAs
+        to complex product platforms I became well versed in quickly picking up
+        new frameworks, design patterns and legacy codebases.
+      </Para> */}
+      {/* <Para>
+        Now I aspire to join a curious, diverse, collaborative and
+        forward-looking team, in building a high quality, impactful product.
+      </Para> */}
+      <SectionHeader>Skills</SectionHeader>
+      <div class="Appendix-skills">
+        <ColumnWrap>
+          <Skill title="React">
+            The evolving React ecosystem has been my focus since 2018. Recent
+            work has included forms with React Hook Form and Formik, mocking
+            with Faker and MSW, data fetching and state management with
+            React-Query and Redux Toolkit, animation with Framer-Motion,
+            server-side rendering with Next.js and Gatsby, testing with Jest /
+            RTL.
+          </Skill>
+          <Skill title="Scripting">
+            My first JavaScript specific role was in 2014, by 2018 it was all
+            JavaScript, with the last 2 years in TypeScript. Mostly frontend
+            with React, RESTful APIs etc, but regularly contributing to Node
+            backends. I've also worked with React Native, express, socket.io
+            etc, and previously with Angular 2, PHP &amp; and had exposure to a
+            variety of backends.
+          </Skill>
+          <Skill title="Styling">
+            My first job in 2006 was reducing the size of the CSS file for a
+            well-trafficked Intel site. CSS3 (Sass, LESS, Stylus), BEM /
+            SMACSS-based architecture, then js-wrapped modules, styled
+            components, styled system, styled jsx, JSS, TSS etc.
+          </Skill>
+          <Skill title="Markup">
+            A background in building EMEA sites for international brands like
+            Vauxhall or Colgate gave me a grounding in building semantic HTML
+            since 2006 with a mind to accessibility, SEO, scalability &amp;
+            unexpected localisation. The practical challenges of keeping apps
+            and websites performant and device-agnostic. I've also learned (and
+            forgotten) a bewildering array of templating syntaxes.
+          </Skill>
+          <Skill title="Design">
+            Talking to creatives on their own terms, translating and pulling
+            assets out of creative comps in Photoshop or Figma, adding
+            interstitial layouts &amp; interactions that those don't cover,
+            identifying UX breakdowns early.
+          </Skill>
+          <Skill title="Tooling">
+            VS Code, Docker, Webpack, Azure, Chromatic, Yarn, NPM, Git, CI with
+            GitHub &amp; Jenkins, Travis and Semaphore, Jira, Trello, Fibery,
+            Netlify etc
+          </Skill>
+          {/* <Skill title="Side projects">
+            Designed &amp; built a Gatsby (React, GraphQL, Jamstack) photography
+            website, later rebuilt in TypeScript & Chakra UI. Took courses in
+            JavaScript Algorithms, Data Structures, React Native, Redux &amp;
+            Node.js.
+          </Skill> */}
+          {/* <Skill title="Education">
+            BEng (Mechanical) at Warwick University
+          </Skill> */}
+        </ColumnWrap>
+      </div>
       <SectionHeader>Experience</SectionHeader>
       <ColumnWrap>
-        {/* <SectionHeader>Front End Contractor 2014 - 2023</SectionHeader> */}
+        {/* <SectionHeader>Frontend Contractor 2014 - 2023</SectionHeader> */}
         <Place time="Jul 2022 - Apr 2023" place="EDD London">
           <Para>
-            An agency role on a series of projects included two booking
-            platforms and one CMSd showcase site for the agency itself (which I
-            also did the photography for). All of them involved prototyping
-            components in Typescript and React and Storybook before integrating
-            them into a dynamic SSR Next.JS app.
+            An agency role where projects included two booking platforms and a
+            CMSd showcase site for the agency itself (which I also did the
+            photography for). All involved prototyping components in TypeScript,
+            React and Storybook before integrating them into a dynamic SSR
+            Next.JS app. Lead two developers on building and integrating React
+            components.
           </Para>
           <Para>
-            Built a UI library extending Chakra UI with custom components to
-            take advantage of their theming system and laying the groundwork for
-            a white label offering.
+            For a booking system project I built a UI library extending Chakra
+            UI with custom components to take advantage of their theming system
+            and laying the groundwork for a white label offering.
           </Para>
           <Para>
-            Forms with React Hook Forms, mocking with Faker &amp; MSW, state and
-            data fetching with React Query, animation with framer motion, and
-            for the CMS content we consumed a custom Headless CMS. Also lead two
-            developers on building out React components.
+            Fun new things included React Hook Forms, mocking with Faker &amp;
+            MSW, state and data fetching with React Query, animation with framer
+            motion, and for the CMS content I consumed a custom Headless CMS.
           </Para>
         </Place>
-        {/* <Place time="Nov 2022 to Jan 2023" place="Side project">
+        <Place time="Nov 2022 to Jan 2023" place="Side project">
           <Para>
-            Designed and built a photography showcase site in Typescript with
-            Gatsby/GraphQL autodeploying from Git via serverless Netlify,
+            Designed and built a photography showcase site in TypeScript with
+            Gatsby/GraphQL auto deploying from Git via serverless Netlify,
             running polls and forms with Formik and Firebase.
           </Para>
-        </Place> */}
+        </Place>
         <Place time="Apr 2021 - Jul 2022" place="Festicket">
           {
             // What was Festicket offering?
             // we swapped between teams
           }
           <Para>
-            An in-house role on the product side of an event ticket marketplace
-            platform, building interfaces to increase transparency to partners
-            on fees and sales performance. Working in small teams we built out a
-            succession of portals and other components in a large mostly React /
-            Redux codebase.
+            In-house, product side role on an event ticket marketplace platform,
+            building interfaces to increase transparency to partners on fees and
+            sales performance. Working in small teams we built out a succession
+            of portals and other components in a large mostly React / Redux
+            codebase.
           </Para>
           <Para>
-            Learned TypeScript and Redux Toolkit, carried out a lot of testing
-            with Jest / React Testing Library. Integrated with React-i18next
-            etc. Also touched on some PHP templating with Twig, while avoiding
-            legacy PHPTal.
+            Fun new things included learning TypeScript and Redux Toolkit,
+            testing as standard with Jest / React Testing Library. We also
+            integrated with React-i18next and touched on some PHP templating
+            with Twig, while avoiding legacy PHPTal.
           </Para>
         </Place>
         {/* <Place time="Feb 2021" place="BDH">
           Networked Interactive Presentation app, with React / Redux &amp;
-          express / sockets.io, making improvements to a MVP after a round of
+          express / socket.io, making improvements to a MVP after a round of
           user testing.
         </Place> */}
         <Place time="Sept 2020 - Mar 2021" place="Jollywise">
           <Para>
-            Agency role, firstly working on updating a React / Redux
-            content-driven site for a TV show to a new design, api and
-            components.
-          </Para>
-          <Para>
-            Later projects were smaller SPAs including a company Christmas quiz,
-            and a set of React / JS dragon-themed mini games.
+            Lead on retrofitting a legacy React and Redux-heavy content-driven
+            site for Cartoon Network show Ben Ten with a new design, api and
+            components for their new property Elliot from Earth. I also
+            contributed to the Climate Champions project, styled a company
+            Christmas quiz SPA, and built a set of React / JS dragon-themed mini
+            games.
           </Para>
         </Place>
         <Place time="Feb - Mar 2020 / Jun 2020" place="EDD London">
           <Para>
-            Agency role on a camera rental e-commerce site; brought onto an
-            existing project to replace an ill team member, first built some
-            missing React UI components then lead on overhauling the layout from
+            I built missing React UI components for a new camera rental
+            eCommerce site then led on overhauling the layout from
             desktop-specific to device-agnostic.
           </Para>
         </Place>
         <Place time="Oct 2019 - Feb 2020  / Jun 2020" place="Rehab Agency">
+          {
+            // Example of GOOD
+          }
           <Para>
             Working on a SCORM-based anti-phishing educational tool, I built 8
             localisations of 6 iterations, consuming a great deal of copy in
@@ -170,59 +236,52 @@ const IndexPage = () => (
         </Place>
         <Place time="May - Aug 2019" place="YunoJuno">
           <Para>
-            Returning to this in-house product team for my first React-based
-            role, we used it with modular scss &amp; Storybook to prototype and
-            implement a new registration &amp; onboarding system to their
-            freelancer platform.
+            Returning to this in-house product team I used React with modular
+            scss to implement a new registration &amp; onboarding system to
+            their freelancer platform.
           </Para>
         </Place>
         <Place time="May - Oct 2018" place="22 design">
           <Para>
             Boutique agency role where projects included an HTML5 banner for the
-            front page of Talk Talk, prototyping a JS 360 spinner, simple
-            updates to an Opencart ecommerce site &amp; building a interactive
-            quiz.
+            front page of Talk Talk, updates to an OpenCart eCommerce site, a JS
+            360 spinner &amp; an interactive quiz.
           </Para>
         </Place>
         <Place time="May - Sept 2018" place="KoffeeCup">
           <Para>
-            An oil company conference needed their kiosk/tablet app updated, so
-            the challenge was getting up to speed on a legacy Angular / Cordova
-            app, then updating it with a new year of content, assets &amp;
-            structure for an on-site tablet &amp; kiosk deployment.
+            Quickly got up to speed on a legacy Angular/Cordova app that needed
+            urgent updating for a client company conference. Updated it with a
+            new year of content, assets & structure for an on-site tablet &
+            kiosk deployment.
           </Para>
         </Place>
         <Place time="Jul 2015 - Dec 2017" place="YunoJuno">
           <Para>
-            A long running in-house role working on a platform to connect the
-            best freelancers with forward thinking companies. On the product
-            team building out an evolving UX &amp; Front End for the platform,
-            taming sprawling legacy CSS &amp; built in the startup years,
-            maintaining an extensive design system using practical BEM,
-            Stylus/SASS and Django templating &amp; later moving to React.
+            In-house role working on a platform to connect freelancers with
+            companies. I built out an evolving UX &amp; Frontend, tamed legacy
+            CSS built in the startup years, and maintained an extensive design
+            system using practical BEM, Stylus/SASS and Django templating, later
+            moving to React.
           </Para>
           <Para>
-            A highlight was carrying out a complete platform-wide redesign using
-            a single CSS retheme for a seamless transition, and leaving the old
-            site intact for any rollbacks.
+            A highlight was carrying out a platform-wide redesign with a single
+            CSS retheme for a seamless and non-destructive transition.
           </Para>
         </Place>
         <Place time="Jul 2014 - Jun 2015" place="MetaBroadcast">
           <Para>
-            An in-house Creative Technologist role acting as a front end
-            consultant to a entirely back-end engineering team, brought on for
-            rapid prototyping, creating UIs to test and consume their extensive
-            experimental TV-based metadata APIs for the BBC.
-          </Para>
-          <Para>
-            My first JavaScript centric role, I was also able to contribute to
-            the company blog and speak at monthly meetups.
+            In-house Creative Technologist in a backend engineering team,
+            brought on for rapid prototyping, creating UIs to test and consume
+            their extensive experimental TV-based metadata APIs for the BBC. I
+            was also contributed to the company blog and spoke at monthly
+            meetups.
           </Para>
         </Place>
         <Place time="Feb 2014 - Jun 2015" place="VooDooBytes">
           <Para>
             Long-running team up with a small agency on a series of
-            content-based and ecommerce sites including agreatplacetobe,
+            content-based and eCommerce sites including agreatplacetobe,
             Cameraworks, Heineken, Rex &amp; Mariano, DMB represents &amp;
             Blossom Hill, using Mixture, Liquid, Sass &amp; jQ for integration
             to Umbraco.
@@ -260,7 +319,7 @@ const IndexPage = () => (
           <Para>
             Interface Developer building microsites for Vauxhall &amp;
             Nationwide, an Intel facebook campaign, iPad site for Regus, a
-            PhoneGap'd iphone app for The Mall &amp; championed responsive &amp;
+            PhoneGap'd iPhone app for The Mall &amp; championed responsive &amp;
             parallax design.
           </Para>
         </Place>
@@ -270,9 +329,9 @@ const IndexPage = () => (
             London"
         >
           <Para>
-            Starting as an Associate Front End Developer before promotion, I
+            Starting as an Associate Frontend Developer before promotion, I
             worked in HTML, CSS &amp; later jQ, reconciling the work of
-            copywriters, designers &amp; back-end devs to produce sites,
+            copywriters, designers &amp; backend devs to produce sites,
             localisations &amp; HTML emails for clients like Intel, Vauxhall,
             Sky Movies, MSN &amp; MasterCard.
           </Para>
@@ -283,72 +342,7 @@ const IndexPage = () => (
           </Para>
         </Place>
       </ColumnWrap>
-      <SectionHeader>Skills</SectionHeader>
-      <div class="Appendix-skills">
-        <ColumnWrap>
-          {
-            // Add a bit about how I learned React myself
-          }
 
-          <Skill title="React">
-            I picked up React between contracts in 2018 and it's been my focus
-            ever since. Recent work has included forms with React Hook Form or
-            Formik, mocking with faker and msw, state management with
-            react-query or redux toolkit, animation with framer-motion, SSR with
-            Next.js or gatsby. Previously used Redux and Redux Toolkit for data
-            fetching and state management.
-          </Skill>
-
-          <Skill title="Scripting">
-            I've been working with JS since 2014 and my last 2 years have had a
-            Typescript focus. Mostly front end with React but I'm used to
-            chipping in with bits of Node.js. I've also dabbled with React
-            Native, express, sockets.io etc, and previously with Angular 2, PHP
-            &amp; a variety of back ends.
-          </Skill>
-
-          <Skill title="Markup">
-            Semantic HTML with a mind to accessibility, SEO, scalability &amp;
-            localisation. The practical challenges of keeping apps and websites
-            performant and device-agnostic.
-          </Skill>
-
-          <Skill title="Styling">
-            My first job in 2006 was reducing the size of the CSS file for a
-            well trafficked Intel site so it's influenced my background. CSS3
-            (Sass, LESS, Stylus), BEM / SMACSS-based architecture, then
-            js-wrapped modules, styled components, styled system, styled jsx,
-            JSS, TSS etc.
-          </Skill>
-
-          <Skill title="Design">
-            Talking to creatives on their own terms, translating and pulling
-            assets out of creative comps in Photoshop or Figma, adding
-            interstitial layouts &amp; interactions that those don't cover,
-            identifying UX breakdowns early.
-          </Skill>
-
-          <Skill title="Tooling">
-            {
-              // CI
-            }
-            VS Code, Docker, Webpack, Figma, Fibery, Azure, Chromatic, Yarn /
-            NPM, Git, CI with GitHub &amp; Jenkins, Travis and Semaphore, Jira,
-            Trello, Netlify etc
-          </Skill>
-
-          {/* <Skill title="Side projects">
-          Designed &amp; built a Gatsby (React, GraphQL, Jamstack) photography
-          website, later rebuild in Typescript & Chakra. Took courses in
-          JavaScript Algorithms, Data Structures, React Native, Redux &amp;
-          Node.js.
-        </Skill> */}
-
-          {/* <Skill title="Education">
-            BEng (Mechanical) at Warwick University
-          </Skill> */}
-        </ColumnWrap>
-      </div>
       <Section>
         <div class="Appendix-links">
           <SectionHeader>Contact</SectionHeader>

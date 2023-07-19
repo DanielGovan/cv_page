@@ -3,12 +3,12 @@ import styled from "styled-components";
 
 const StyledPara = styled.p`
   font-size: 1.2rem;
-  line-height: 1.2;
+  line-height: 1.3;
   padding: 0;
   margin: 0.5rem 0 1rem 0.5rem;
 
   @media print {
-    font-size: 0.9rem !important;
+    font-size: 1rem !important;
     line-height: 1.1 !important;
     margin: 0.4rem 0 0.4rem 0 !important;
   }
