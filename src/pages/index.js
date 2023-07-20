@@ -122,12 +122,12 @@ const IndexPage = () => (
             components, styled system, styled jsx, JSS, TSS etc.
           </Skill>
           <Skill title="Markup">
-            Building international EMEA sites for brands like Vauxhall or
-            Colgate gave me a grounding in semantic HTML with a mind to
-            accessibility, SEO, scalability &amp; unexpected localisation. The
-            practical challenges of keeping apps and websites performant and
-            device-agnostic. I've also learned (and forgotten) a bewildering
-            array of templating syntaxes.
+            Building sites for international brands like Vauxhall and Colgate
+            gave me a grounding in semantic HTML with a mind to accessibility,
+            SEO, scalability &amp; unexpected localisation. The practical
+            challenges of keeping apps and websites performant and
+            device-agnostic. Over the years I've also learned (and forgotten) a
+            bewildering array of templating syntaxes.
           </Skill>
           <Skill title="Design">
             Talking to creatives on their own terms, translating and pulling
