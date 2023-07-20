@@ -111,15 +111,15 @@ const IndexPage = () => (
             My first JavaScript specific role was in 2014, and by 2018 it was
             all JavaScript, with the last 2 years in TypeScript. Mostly frontend
             with React, RESTful APIs etc, but regularly contributing to Node
-            backends. I've also worked with React Native, express, socket.io
-            etc, and previously with Angular 2, PHP &amp; and had exposure to a
+            backends. I've also worked with React Native, express, socket.io,
+            and previously with Angular 2, PHP &amp; and had exposure to a
             variety of backends.
           </Skill>
           <Skill title="Styling">
             My first job in 2006 was reducing the size of the CSS file for a
             well-trafficked Intel site. CSS3 (Sass, LESS, Stylus), BEM /
             SMACSS-based architecture, then js-wrapped modules, styled
-            components, styled system, styled jsx, JSS, TSS etc.
+            components, styled system, styled jsx, JSS, TSS.
           </Skill>
           <Skill title="Markup">
             Building sites for international brands like Vauxhall and Colgate
@@ -138,7 +138,7 @@ const IndexPage = () => (
           <Skill title="Tooling">
             VS Code, Docker, Webpack, Azure, Chromatic, Yarn, NPM, Git, CI with
             GitHub &amp; Jenkins, Travis and Semaphore, Jira, Trello, Fibery,
-            Netlify etc
+            Netlify
           </Skill>
           {/* <Skill title="Side projects">
             Designed &amp; built a Gatsby (React, GraphQL, Jamstack) photography
