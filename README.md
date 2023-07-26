@@ -1,3 +1,5 @@
+<p>A simple CV SPA, built to be a quick and always accessible reference, and as an easy code-to-PDF converter.</p>
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
