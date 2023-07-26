@@ -1,8 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Para from "./Para";
 import Subheader from "./Subheader";
-import ColumnWrap from "./ColumnWrap";
 
 const StyledPlace = styled.div`
   @media screen {

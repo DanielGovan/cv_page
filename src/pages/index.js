@@ -15,30 +15,6 @@ import Para from "../components/Para";
 import ColumnWrap from "../components/ColumnWrap";
 import NoColWrap from "../components/NoColWrap";
 
-// const StyledColumnWrap = styled.div`
-//   @media screen and (min-width: 1000px) {
-//     column-count: 2;
-//     column-width: 200px;
-//   }
-//   @media print {
-//     column-count: 2;
-//     column-width: 200px;
-//   }
-// `;
-
-// const ColumnWrap = ({ children }) => {
-//   return <StyledColumnWrap>{children}</StyledColumnWrap>;
-// };
-
-// const StyledNoColWrap = styled.div`
-//   --webkit-column-break-inside: avoid;
-//   break-inside: avoid;
-// `;
-
-// const NoColWrap = ({ children }) => {
-//   return <StyledNoColWrap>{children}</StyledNoColWrap>;
-// };
-
 const StyledSection = styled.div`
   @media screen and (min-width: 1000px) {
   }
@@ -51,20 +27,6 @@ const Section = ({ children }) => {
   return <StyledSection>{children}</StyledSection>;
 };
 
-const StyledSmolSection = styled.div`
-  @media screen and (min-width: 1000px) {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  @media print {
-    /* margin-top: 1rem; */
-  }
-`;
-
-const SmolSection = ({ children }) => {
-  return <StyledSmolSection>{children}</StyledSmolSection>;
-};
-
 const IndexPage = () => (
   <Layout>
     <SEO title="CV" />
@@ -75,10 +37,6 @@ const IndexPage = () => (
         intro="Senior frontend software engineer
         with a passion for UI/UX and over 17 years experience building for the web"
       />
-      {
-        // My first job in 2006 was reducing the size of the CSS file for a
-        // well-trafficked Intel.
-      }
 
       {/* <SectionHeader>Overview</SectionHeader>
       <Para>
@@ -182,10 +140,6 @@ const IndexPage = () => (
           </Para>
         </Place>
         <Place time="Apr 2021 - Jul 2022" place="Festicket">
-          {
-            // What was Festicket offering?
-            // we swapped between teams
-          }
           <Para>
             In-house, product side role on an event ticket marketplace platform,
             building interfaces to increase transparency to partners on fees and
@@ -223,9 +177,6 @@ const IndexPage = () => (
           </Para>
         </Place>
         <Place time="Oct 2019 - Feb 2020  / Jun 2020" place="Rehab Agency">
-          {
-            // Example of GOOD
-          }
           <Para>
             Working on a SCORM-based anti-phishing educational tool, I built 8
             localisations of 6 iterations, consuming a great deal of copy in

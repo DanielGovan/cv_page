@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 
-const StyledSectionHeader = styled.div`
+const StyledSectionHeader = styled.h2`
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   font-size: 2rem;
-  color: #bbb;
+  color: #888;
   letter-spacing: 2px;
   margin: 2rem 0 1rem;
   text-align:
