@@ -8,7 +8,7 @@ const StyledPara = styled.p`
   margin: 0.5rem 0 1rem 0.5rem;
 
   @media print {
-    font-size: 1rem !important;
+    font-size: 0.95rem !important;
     line-height: 1.1 !important;
     margin: 0.4rem 0 0.4rem 0 !important;
   }

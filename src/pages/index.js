@@ -93,6 +93,11 @@ const IndexPage = () => (
             interstitial layouts &amp; interactions that those don't cover,
             identifying UX breakdowns early.
           </Skill>
+          <Skill title="Mentoring">
+            I usually collaborate in small interdisciplinary teams, but I value
+            knowledge sharing via pairing and code reviews whenever possible. In
+            my last role I had the opportunity to mentor and lead two juniors.
+          </Skill>
           <Skill title="Tooling">
             VS Code, Docker, Webpack, Azure, Chromatic, Yarn, NPM, Git, CI with
             GitHub &amp; Jenkins, Travis and Semaphore, Jira, Trello, Fibery,
