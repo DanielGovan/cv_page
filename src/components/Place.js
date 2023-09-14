@@ -16,8 +16,8 @@ const Place = ({ time, place, type, children }) => {
     <StyledPlace>
       <Subheader>
         {place}
-        <span class="dateText">{time}</span>
-        <span class="dateText">{type}</span>
+        <span className="dateText">{time}</span>
+        <span className="dateText">{type}</span>
       </Subheader>
       {children}
     </StyledPlace>

@@ -55,7 +55,7 @@ const IndexPage = () => (
         forward-looking team, in building a high quality, impactful product.
       </Para> */}
       <SectionHeader>Skills</SectionHeader>
-      <div class="Appendix-skills">
+      <div className="Appendix-skills">
         <ColumnWrap>
           <Skill title="React">
             The evolving React ecosystem has been my focus since 2018. Recent
@@ -304,7 +304,7 @@ const IndexPage = () => (
       </ColumnWrap>
 
       <Section>
-        <div class="Appendix-links">
+        <div className="Appendix-links">
           <SectionHeader>Contact</SectionHeader>
           <FooterLink
             print="www.linkedin.com/in/daniel-govan-9227511"
